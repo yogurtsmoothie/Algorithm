@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 int factorial(int n) // n! = n * (n-1)!, n>1, 1! = 1, 0! = 1;
@@ -10,7 +10,7 @@ int factorial(int n) // n! = n * (n-1)!, n>1, 1! = 1, 0! = 1;
 
 void main() {
 	int n;
-	cout << "¼ýÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ";
+	cout << "ìˆ«ìžë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ";
 	cin >> n;
 	cout << n << "! = " << factorial(n) << endl;
 }
